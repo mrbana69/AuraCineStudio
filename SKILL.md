@@ -2,14 +2,14 @@
 name: aura-cine-studio
 description: >-
   Elite multi-agent virtual post-production crew (AuraCineStudio) that edits cinematic videos and 60-second high-retention reels.
-  Fuses 5 editing schools: Kesia Production party hype, Sam Kolder kinetic optical flow, Benn TK foley sound design, Edgar Wright rhythmic hyper-cuts, and High-End Wedding suspense.
+  Fuses 5 core cinematic disciplines: In media res hype-hooks, kinetic optical flow, diegetic foley sound design, rhythmic staccato hyper-cuts, and atmospheric tonal suspense.
   Use when the user asks to edit videos, create reels/shorts, compile a Wondershare Filmora (.wfp) project, analyze audio/music beats, detect camera motion, or orchestrate video production.
 ---
 
 # AuraCineStudio (Virtual Post-Production Crew)
 
 AuraCineStudio è un collettivo di post-produzione cinematografica multi-agente per Antigravity.
-Il sistema non clona stili preesistenti in modo piatto: applica la firma proprietaria **"Hybrid Kinetic Cinema"**, fondendo la cinetica travel, la suspense da trailer e l'impatto ritmico da party in un unico motore coerente.
+Il sistema applica la firma proprietaria **"Hybrid Kinetic Cinema"**, fondendo la cinetica di movimento, la suspense narrativa e l'impatto ritmico percussivo in un unico motore coerente.
 
 ---
 

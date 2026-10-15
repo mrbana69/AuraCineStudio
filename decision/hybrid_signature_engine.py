@@ -1,11 +1,11 @@
 """
 AuraCineStudio Hybrid Signature Engine
-Synthesizes 5 world-class editing schools into our proprietary signature:
-1. Kesia Production: In media res teaser, the Dead Stop pre-drop, and party hype energy.
-2. Sam Kolder / JR Alli: Optical flow directional match-cuts and hourglass speed ramping.
-3. Benn TK / Daniel Schiffer: Hyper-immersive foley, sub-impacts, and directional whooshes.
-4. Edgar Wright: Staccato rhythmic hyper-cuts on macro details.
-5. High-End Wedding Cinema: Tonal suspense, atmospheric pads, J-cuts and L-cuts.
+Synthesizes 5 core cinematic post-production pillars into our proprietary signature:
+1. In Media Res Hype-Hook: High-retention opening, staccato teaser cuts, and the Dead Stop pre-drop.
+2. Kinetic Optical Flow: Directional vector match-cutting and hourglass speed ramping.
+3. Diegetic Foley Architecture: Immersive foley sound design, sub-impacts, and directional whooshes.
+4. Rhythmic Staccato Cuts: Rapid micro-cuts on macro details locked to secondary percussive hits.
+5. Atmospheric Tonal Suspense: Tonal drone dilation, steep low-pass filtering, and asymmetric J/L-cuts.
 """
 from typing import Dict, Any, List
 from core.logger import AuraLogger
@@ -43,7 +43,7 @@ class HybridSignatureEngine:
         curr_t = 0.0
 
         # ----------------------------------------------------
-        # [FASE 1: HOOK HYPER-CUTS - Kesia + Edgar Wright] (0.0s -> ~2.8s)
+        # [FASE 1: HOOK HYPER-CUTS] (0.0s -> ~2.8s)
         # 3 micro-cuts (6-8 frames) on maximum action
         # ----------------------------------------------------
         hook_pool = (spark_clips + self.vision)[:3]
@@ -63,7 +63,7 @@ class HybridSignatureEngine:
             curr_t += dur
 
         # ----------------------------------------------------
-        # [FASE 2: ATMOSPHERE & TONAL SUSPENSE - Wedding Cinema] (2.8s -> ~10.5s)
+        # [FASE 2: ATMOSPHERE & TONAL SUSPENSE] (2.8s -> ~10.5s)
         # Pacing dilates, tonal drone, low-pass 300Hz, slow push-in
         # ----------------------------------------------------
         suspense_cues = self.audio.get("suspense_zones", [])
@@ -87,7 +87,7 @@ class HybridSignatureEngine:
             curr_t += dur
 
         # ----------------------------------------------------
-        # [FASE 3: KINETIC FLOW & OPTICAL MATCH-CUTS - Sam Kolder] (~10.5s -> ~48.0s)
+        # [FASE 3: KINETIC FLOW & OPTICAL MATCH-CUTS] (~10.5s -> ~48.0s)
         # Directional continuity: PAN_RIGHT -> PAN_RIGHT with hourglass speed curves
         # ----------------------------------------------------
         drop_time = target_duration - 12.0
@@ -114,7 +114,7 @@ class HybridSignatureEngine:
             curr_t += dur
 
         # ----------------------------------------------------
-        # [FASE 4: THE DEAD STOP - Kesia] (48.0s -> 48.5s)
+        # [FASE 4: THE DEAD STOP] (48.0s -> 48.5s)
         # Absolute silence / low-pass vacuum 12 frames pre-drop
         # ----------------------------------------------------
         timeline.append({
@@ -129,7 +129,7 @@ class HybridSignatureEngine:
         })
 
         # ----------------------------------------------------
-        # [FASE 5: CLIMAX DROP & FOLEY IMPACT - Benn TK] (48.5s -> ~56.5s)
+        # [FASE 5: CLIMAX DROP & FOLEY IMPACT] (48.5s -> ~56.5s)
         # Kick-snapping, 112% punch-zoom, flash white, sub-impact boom
         # ----------------------------------------------------
         curr_t = drop_time

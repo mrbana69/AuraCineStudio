@@ -31,25 +31,23 @@ flowchart TD
 
 ---
 
-## The 5 Editing Schools in the Hybrid Signature
+## The 5 Pillars of the Hybrid Signature
 
-1. **Kesia Production**: 
-   - Hyper-hook in media res (0.0s – 2.8s)
-   - The Dead Stop vacuum (12 frames absolute silence before drop)
-   - Climax party energy
-2. **Sam Kolder / JR Alli**:
-   - Directional optical flow matching (`PAN_RIGHT` $\rightarrow$ `PAN_RIGHT`)
-   - Hourglass speed ramping (`180%` $\rightarrow$ `100%` $\rightarrow$ `220%`)
-3. **Benn TK / Daniel Schiffer**:
-   - Diegetic foley audio reinforcement
-   - Directional whooshes on seamless transitions
-   - Sub-bass impact booms on drops
-4. **Edgar Wright**:
-   - Staccato micro-cuts on macro details (6–8 frames)
-5. **High-End Wedding Cinema**:
-   - Tonal suspense dilation
-   - Low-pass filters (<300 Hz)
-   - Asymmetric J-cuts and L-cuts on emotional speeches
+1. **In Media Res Hype-Hook**: 
+   - Hyper-hook opening sequence (0.0s – 2.8s) with micro-cuts on maximum kinetic energy.
+   - *The Dead Stop* vacuum (12 frames absolute silence before climax impact).
+2. **Kinetic Optical Flow**:
+   - Directional vector match-cutting on concordant axes (`PAN_RIGHT` $\rightarrow$ `PAN_RIGHT`).
+   - Hourglass speed ramping curve (`180%` $\rightarrow$ `100%` $\rightarrow$ `220%`).
+3. **Diegetic Foley Architecture**:
+   - Hyper-immersive diegetic audio reinforcement.
+   - Directional whooshes synchronized with camera whip pans.
+   - Deep sub-bass impact booms on primary beat drops.
+4. **Rhythmic Staccato Hyper-Cuts**:
+   - Rapid micro-cuts on macro details (6–8 frames) locked to snare/transient spikes.
+5. **Atmospheric Tonal Suspense**:
+   - Tonal drone audio dilation with steep low-pass filtering (<300 Hz).
+   - Asymmetric J-cuts and L-cuts on dialogue and emotional moments.
 
 ---
 

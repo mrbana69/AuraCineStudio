@@ -7,15 +7,15 @@ Mentre il DoP / Field Shooter (l'utente) si concentra unicamente sulla cattura d
 
 ---
 
-## 🌟 La Firma Autoriale: "Hybrid Kinetic Cinema"
+## 🌟 La Nostra Firma: "Hybrid Kinetic Cinema"
 
-Invece di clonare singoli creator, AuraCineStudio fonde 5 scuole di montaggio social contemporanee:
+AuraCineStudio unifica 5 pilastri della grammatica cinematografica e del montaggio moderno in una metodologia integrata:
 
-1. **Kesia Production**: Teaser in media res, The Dead Stop pre-drop, e party energy.
-2. **Sam Kolder / JR Alli**: Optical Flow match-cuts concordanti (`PAN_RIGHT` $\rightarrow$ `PAN_RIGHT`) e speed ramping a clessidra (`180%` $\rightarrow$ `100%` $\rightarrow$ `220%`).
-3. **Benn TK / Daniel Schiffer**: Sound design foley diegetico iper-realistico, sub-bass impact booms e whooshes direzionali.
-4. **Edgar Wright**: Staccato micro-cuts ritmici sui dettagli macro (6–8 frames).
-5. **High-End Wedding Cinema**: Tonal suspense, low-pass filters (<300 Hz), J-cuts e L-cuts asimmetrici.
+1. **In Media Res Hype-Hook**: Apertura ad alta ritenzione (0–2.8s) con micro-stacchi sui punti di massima energia, stacco atmosferico e *The Dead Stop* (silenzio d'aria pre-drop).
+2. **Kinetic Optical Flow**: Match-cut direzionali su vettori di movimento concordanti (`PAN_RIGHT` $\rightarrow$ `PAN_RIGHT`) e curve di velocità a clessidra (`180%` $\rightarrow$ `100%` $\rightarrow$ `220%`).
+3. **Diegetic Foley Architecture**: Sound design tridimensionale iper-realistico, sub-bass impact booms sui beat primari e whoosh direzionali calibrati su ogni transizione.
+4. **Rhythmic Staccato Hyper-Cuts**: Micro-sequenze dinamiche da 6–8 frame sincronizzate sugli accenti percussivi secondari (snare/timbal).
+5. **Atmospheric Tonal Suspense**: Dilatazione temporale con tonal drones, filtri passa-basso (<300 Hz), slow-motion fluido a 60fps e stacchi continui con J-cut/L-cut asimmetrici.
 
 ---
 
@@ -24,7 +24,7 @@ Invece di clonare singoli creator, AuraCineStudio fonde 5 scuole di montaggio so
 ```plaintext
 AuraCineStudio/
 ├── .gitignore
-├── README.md
+├── README.md                          # Documentazione e showcase della troupe
 ├── SKILL.md                          # Direttive operative per Antigravity CLI
 ├── studio.py                         # Master CLI orchestrator
 ├── requirements.txt
